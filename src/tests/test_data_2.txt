@@ -1,0 +1,6 @@
+price, dist
+$$$, close
+$$$, far
+$$, far
+$$, close
+$, far
