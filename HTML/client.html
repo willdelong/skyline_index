@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="generator" content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39">
+  <style>
+.filterDiv {
+  float: left;
+  background-color: blue;
+  border-color: #f4f4f4;
+  border-style: solid;
+  color: #ffffff;
+  width: 250px;
+  line-height: 50px;
+  text-align: center;
+  margin: 2px;
+  display: none;
+  }
+
+  .show {
+  display: block;
+  }
+
+  .container {
+  margin-top: 20px;
+  overflow: hidden;
+  }
+
+  /* Style the buttons */
+  .btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  }
+
+  .btn:hover {
+  background-color: #ddd;
+  }
+
+  .btn.active {
+  background-color: #666;
+  color: white;
+  }
+
+  #myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  }
+  </style>
+
+  <title></title>
+</head>
+
+<body>
+  <h2>Items</h2>
+
+  <div id="myBtnContainer">
+    <input type="text" id="myInput" onkeyup="filterSelection(value)" placeholder="Search for items.." title="Type in a name">
+  </div>
+  
+  <div>
+    <button class="btn" onclick="addItem(title)">Add New Item</button>
+  </div>
+
+  <div id="main-container" class="container">
+    <div class="filterDiv book blue cheap far">book blue cheap far</div>
+
+    <div class="filterDiv orange expensive car nearby">orange expensive car nearby</div>
+
+    <div class="filterDiv blue  good-price  restaurant far">blue  good-price  restaurant far</div>
+
+    <div class="filterDiv red book cheap nearby">red book cheap nearby</div>
+
+
+    <div class="filterDiv red  cheap  t-shirt far">red  cheap  t-shirt far</div>
+
+    <div class="filterDiv blue book  good-price  nearby">blue book  good-price  nearby</div>
+
+
+    <div class="filterDiv orange expensive furniture nearby">orange expensive furniture nearby</div>
+
+    <div class="filterDiv blue  cheap  t-shirt very-far">blue  cheap  t-shirt very-far</div>
+
+    <div class="filterDiv yellow expensive car far">yellow expensive car far</div>
+    
+        <div class="filterDiv book blue cheap far">book blue cheap far</div>
+
+    <div class="filterDiv orange expensive car nearby">orange expensive car nearby</div>
+
+    <div class="filterDiv blue  good-price  restaurant far">blue  good-price  restaurant far</div>
+
+    <div class="filterDiv red book cheap nearby">red book cheap nearby</div>
+
+
+    <div class="filterDiv orange  cheap  t-shirt far">orange  cheap  t-shirt far</div>
+
+    <div class="filterDiv blue book  good-price  nearby">blue book  good-price  nearby</div>
+
+
+    <div class="filterDiv orange expensive furniture far">orange expensive furniture far</div>
+
+    <div class="filterDiv blue  cheap  t-shirt very-far">blue  cheap  t-shirt very-far</div>
+
+    <div class="filterDiv blue expensive car far">blue expensive car far</div>
+  </div><script>
+filterSelection("all")
+  function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+  }
+
+  function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+  }
+
+  function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+  }
+
+  // Add active class to the current button (highlight it)
+  var btnContainer = document.getElementById("myBtnContainer");
+  var btns = btnContainer.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+  }
+
+
+  // Add item to the main-container DOM
+  function addItem(title){
+    // Add to DOM
+  var elem = document.createElement("div");
+  var node = document.createTextNode("cheap car red nearby");
+  elem.appendChild(node);
+  elem.className += "filterDiv cheap car red nearby show";
+
+  var containerElem = document.getElementById("main-container");
+  containerElem.appendChild(elem);
+  }
+
+  </script>
+</body>
+</html>

@@ -1,13 +1,14 @@
-package tests;
+package com.skyline.tests;
 
 import static org.junit.Assert.*;
 
 import java.util.ArrayList;
 import org.junit.Before;
 import org.junit.Test;
-import skyline_index.AttributeTree;
-import skyline_index.DataNode;
-import skyline_index.ForestRanger;
+
+import com.skyline.index.AttributeTree;
+import com.skyline.index.DataNode;
+import com.skyline.index.ForestRanger;
 
 public class ForestRangerTest {
 

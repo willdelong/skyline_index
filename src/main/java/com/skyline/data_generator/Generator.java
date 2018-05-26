@@ -1,4 +1,4 @@
-package data_generator;
+package com.skyline.data_generator;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -20,7 +20,7 @@ public class Generator {
 		
 		ArrayList<String> lines = generateData(attributes, attributesRanges, numberOfDataNodes);
 		
-		String filePath = "src/data_sets/data.txt";
+		String filePath = "src/main/java/com/skyline/data_sets/data.txt";
 		writeToFile(filePath, lines);
 	}
 

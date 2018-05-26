@@ -1,12 +1,14 @@
-package tests;
+package com.skyline.tests;
 
 import static org.junit.Assert.*;
 
 import java.util.Set;
 
 import org.junit.Test;
+
+import com.skyline.index.DataNode;
+
 import org.junit.Before;
-import skyline_index.DataNode;
 
 public class DataNodeTest  {
 	

@@ -1,12 +1,13 @@
-package tests;
+package com.skyline.tests;
 
 import static org.junit.Assert.*;
 
 import java.util.ArrayList;
 import org.junit.Before;
 import org.junit.Test;
-import skyline_index.DataNode;
-import skyline_index.DataReader;
+
+import com.skyline.index.DataNode;
+import com.skyline.index.DataReader;
 
 public class DataReaderTest {
 
@@ -14,7 +15,7 @@ public class DataReaderTest {
 	
 	@Before
 	public void setUp() throws Exception {
-		dr = new DataReader("src/tests/test_data_1.txt");
+		dr = new DataReader("src/test/java/com/skyline/tests/test_data_1.txt");
 	}
 
 	@Test
@@ -31,7 +32,7 @@ public class DataReaderTest {
 	
 	@Test
 	public void testSetDataFilePath() {
-		dr.setDataFilePath("src/tests/test_data_2.txt");
+		dr.setDataFilePath("src/test/java/com/skyline/tests/test_data_2.txt");
 		
 		ArrayList<DataNode> dataNodes = dr.generateDataNodes();
 		

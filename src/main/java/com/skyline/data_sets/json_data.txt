@@ -1,0 +1,108 @@
+{"price":"$$$","distance":"very far","color":"yellow","type":"car"}
+{"price":"$","distance":"close","color":"yellow","type":"book"}
+{"price":"$","distance":"very far","color":"green","type":"car"}
+{"price":"out-of-range","distance":"very far","color":"yellow","type":"restaurant"}
+{"price":"$","distance":"close","color":"blue","type":"restaurant"}
+{"price":"$","distance":"very far","color":"yellow","type":"car"}
+{"price":"$$","distance":"very far","color":"green","type":"furniture"}
+{"price":"$$$","distance":"very far","color":"blue","type":"restaurant"}
+{"price":"$$$","distance":"very close","color":"green","type":"restaurant"}
+{"price":"$$$","distance":"close","color":"red","type":"book"}
+{"price":"$$","distance":"very far","color":"yellow","type":"t-shirt"}
+{"price":"$$$","distance":"far","color":"yellow","type":"book"}
+{"price":"$$$","distance":"very far","color":"yellow","type":"t-shirt"}
+{"price":"$$","distance":"very far","color":"green","type":"car"}
+{"price":"out-of-range","distance":"far","color":"yellow","type":"furniture"}
+{"price":"$$","distance":"very far","color":"red","type":"restaurant"}
+{"price":"$","distance":"far","color":"green","type":"furniture"}
+{"price":"out-of-range","distance":"very far","color":"yellow","type":"book"}
+{"price":"out-of-range","distance":"very far","color":"blue","type":"car"}
+{"price":"$","distance":"very far","color":"blue","type":"car"}
+{"price":"$$","distance":"far","color":"blue","type":"restaurant"}
+{"price":"$$$","distance":"very close","color":"blue","type":"book"}
+{"price":"$$$","distance":"very far","color":"orange","type":"t-shirt"}
+{"price":"out-of-range","distance":"very far","color":"green","type":"t-shirt"}
+{"price":"$","distance":"very far","color":"yellow","type":"restaurant"}
+{"price":"$","distance":"very close","color":"green","type":"book"}
+{"price":"$$","distance":"very close","color":"blue","type":"restaurant"}
+{"price":"$","distance":"very far","color":"orange","type":"t-shirt"}
+{"price":"out-of-range","distance":"very far","color":"green","type":"t-shirt"}
+{"price":"$$$","distance":"very close","color":"blue","type":"book"}
+{"price":"out-of-range","distance":"very far","color":"orange","type":"book"}
+{"price":"$$","distance":"very close","color":"yellow","type":"restaurant"}
+{"price":"out-of-range","distance":"far","color":"blue","type":"car"}
+{"price":"out-of-range","distance":"far","color":"yellow","type":"furniture"}
+{"price":"$$","distance":"close","color":"blue","type":"furniture"}
+{"price":"$$","distance":"far","color":"red","type":"furniture"}
+{"price":"$$","distance":"close","color":"green","type":"restaurant"}
+{"price":"$","distance":"very close","color":"blue","type":"car"}
+{"price":"out-of-range","distance":"far","color":"blue","type":"furniture"}
+{"price":"$$","distance":"very close","color":"yellow","type":"car"}
+{"price":"$","distance":"very far","color":"orange","type":"book"}
+{"price":"$$","distance":"close","color":"yellow","type":"car"}
+{"price":"out-of-range","distance":"very far","color":"blue","type":"restaurant"}
+{"price":"out-of-range","distance":"far","color":"yellow","type":"book"}
+{"price":"$","distance":"very close","color":"orange","type":"book"}
+{"price":"$$","distance":"far","color":"orange","type":"t-shirt"}
+{"price":"out-of-range","distance":"far","color":"red","type":"t-shirt"}
+{"price":"$$$","distance":"close","color":"orange","type":"t-shirt"}
+{"price":"$","distance":"close","color":"blue","type":"furniture"}
+{"price":"out-of-range","distance":"close","color":"orange","type":"car"}
+{"price":"$$$","distance":"close","color":"green","type":"car"}
+{"price":"$$$","distance":"close","color":"green","type":"car"}
+{"price":"$","distance":"far","color":"blue","type":"furniture"}
+{"price":"$$$","distance":"very far","color":"blue","type":"furniture"}
+{"price":"$$$","distance":"far","color":"blue","type":"furniture"}
+{"price":"$$$","distance":"very far","color":"red","type":"restaurant"}
+{"price":"$$$","distance":"very far","color":"red","type":"book"}
+{"price":"$","distance":"very far","color":"yellow","type":"restaurant"}
+{"price":"out-of-range","distance":"very close","color":"orange","type":"car"}
+{"price":"$$$","distance":"far","color":"green","type":"restaurant"}
+{"price":"$$$","distance":"close","color":"green","type":"furniture"}
+{"price":"out-of-range","distance":"very close","color":"red","type":"restaurant"}
+{"price":"out-of-range","distance":"very far","color":"green","type":"book"}
+{"price":"out-of-range","distance":"very far","color":"yellow","type":"book"}
+{"price":"$$","distance":"far","color":"red","type":"book"}
+{"price":"$","distance":"very close","color":"green","type":"car"}
+{"price":"$","distance":"far","color":"blue","type":"furniture"}
+{"price":"$$$","distance":"close","color":"orange","type":"furniture"}
+{"price":"out-of-range","distance":"far","color":"green","type":"book"}
+{"price":"$","distance":"far","color":"yellow","type":"car"}
+{"price":"out-of-range","distance":"very far","color":"green","type":"book"}
+{"price":"$$","distance":"very far","color":"orange","type":"book"}
+{"price":"$$","distance":"close","color":"yellow","type":"restaurant"}
+{"price":"$$$","distance":"very far","color":"blue","type":"car"}
+{"price":"$$$","distance":"close","color":"green","type":"furniture"}
+{"price":"$$","distance":"very close","color":"red","type":"book"}
+{"price":"$","distance":"far","color":"green","type":"restaurant"}
+{"price":"$$$","distance":"far","color":"yellow","type":"book"}
+{"price":"$","distance":"close","color":"red","type":"book"}
+{"price":"out-of-range","distance":"close","color":"orange","type":"restaurant"}
+{"price":"$$","distance":"very far","color":"green","type":"furniture"}
+{"price":"$$$","distance":"very close","color":"orange","type":"furniture"}
+{"price":"$","distance":"far","color":"blue","type":"book"}
+{"price":"out-of-range","distance":"far","color":"yellow","type":"t-shirt"}
+{"price":"$$$","distance":"very far","color":"green","type":"furniture"}
+{"price":"$$","distance":"very far","color":"yellow","type":"t-shirt"}
+{"price":"$$$","distance":"close","color":"red","type":"t-shirt"}
+{"price":"out-of-range","distance":"far","color":"red","type":"book"}
+{"price":"$$","distance":"very far","color":"yellow","type":"restaurant"}
+{"price":"$$$","distance":"very far","color":"orange","type":"book"}
+{"price":"$$","distance":"close","color":"green","type":"furniture"}
+{"price":"$$$","distance":"very far","color":"yellow","type":"book"}
+{"price":"$","distance":"close","color":"green","type":"car"}
+{"price":"$","distance":"close","color":"red","type":"furniture"}
+{"price":"$$","distance":"far","color":"red","type":"t-shirt"}
+{"price":"$$$","distance":"very far","color":"green","type":"car"}
+{"price":"$$$","distance":"far","color":"blue","type":"furniture"}
+{"price":"$$$","distance":"very far","color":"yellow","type":"restaurant"}
+{"price":"$","distance":"very close","color":"red","type":"t-shirt"}
+{"price":"$","distance":"close","color":"blue","type":"furniture"}
+"color":"blue","type":"book"}
+
+{"price":"$$","distance":"very far","color":"orange","type":"car",}
+ype":"book",}]
+[{"price":"$$$","distance":"very close","color":"red","type":"restaurant",}]
+[{"price":"$","distance":"very close","color":"red","type":"car",}]
+ice":"out-of-range","distance":"very close","color":"book","type":"yellow",}]
+[{"price":"$$","distance":"very close","color":"furniture","type":"orange",}]

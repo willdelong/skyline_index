@@ -1,4 +1,4 @@
-package skyline_index;
+package com.skyline.index;
 
 import java.util.Comparator;
 

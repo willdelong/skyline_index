@@ -1,4 +1,4 @@
-package skyline_index;
+package com.skyline.index;
 
 public class FrequencyDataNode {
 	int frequency;
